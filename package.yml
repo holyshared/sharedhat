@@ -1,0 +1,31 @@
+name: "sharedhat"
+
+exports: "sharedhat.js"
+
+web: "[sharedhat.com](http://sharedhat.com)"
+
+description: "sharedhat plugin package"
+
+license: "[MIT License](http://mootools.net/license.txt)"
+
+copyright: "&copy; [Noritaka Horio](http://sharedhat.com)"
+
+authors: "[Noritaka Horio](http://sharedhat.com)"
+
+version: "1.0.0"
+
+sources:
+  - "Source/ImageDrawer/ImageDrawer.js"
+  - "Source/ImageDrawer/ImageDrawer.Grid.js"
+  - "Source/ImageDrawer/ImageDrawer.Expand.js"
+  - "Source/Gradually/Gradually.js"
+  - "Source/Gradually/Gradually.Slideshow.js"
+  - "Source/Gradually/Gradually.Gallery.js"
+  - "Source/Exhibition/Exhibition.js"
+  - "Source/Exhibition/Exhibition.Horizontal.js"
+  - "Source/Exhibition/Exhibition.Vertical.js"
+  - "Source/MMap/MMap.js"
+  - "Source/MMap/MMap.Marker.js"
+  - "Source/MMap/MMap.Marker.Image.js"
+  - "Source/MMap/MMap.Marker.Images.js"
+  - "Source/MMap/MMap.Window.js"

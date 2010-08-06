@@ -1,15 +1,83 @@
 {
 
 	"ImageDrawer": {
+		"ImageDrawer": {
+			"deps": ["ImageDrawer"],
+			"desc": "ImageDrawer offers API that draws to the canvas in the image while doing animation."
+		},
+
+		"ImageDrawer.Grid": {
+			"deps": ["ImageDrawer"],
+			"desc": "It draws in the image in each small grid."
+		},
+
+		"ImageDrawer.Expand": {
+			"deps": ["ImageDrawer"],
+			"desc": "It draws in the image while expanding the width of length."
+		}
 	},
 
 	"Gradually": {
+		"Gradually": {
+			"deps": ["Gradually", "ImageDrawer", "ImageDrawer.Grid"],
+			"desc": "Gallery API using the canvas element is offered."
+		},
+
+		"Gradually.Slideshow": {
+			"deps": ["Gradually", "ImageDrawer", "ImageDrawer.Grid"],
+			"desc": "The slide show using Gradually can be used."
+		},
+
+		"Gradually.Gallery": {
+			"deps": ["Gradually", "ImageDrawer", "ImageDrawer.Grid"],
+			"desc": "The gallery with the thumbnail using Gradually can be used."
+		}
 	},
 
 	"Exhibition": {
+
+		"Exhibition": {
+			"deps": ["Exhibition"],
+			"desc": "The image lines up beautifully and is displayed."
+		},
+
+		"Exhibition.Horizontal": {
+			"deps": ["Exhibition"],
+			"desc": "The image lines up beautifully and is displayed."
+		},
+
+		"Exhibition.Vertical": {
+			"deps": ["Exhibition"],
+			"desc": "The image lines up beautifully and is displayed."
+		}
 	},
 
 	"MMap": {
+
+		"MMap.js": {
+			"deps": ["MMap"],
+			"desc": "Map using Google Maps Api Version 3. A comprehensible map can be displayed by using the custom marker."
+		},
+
+		"MMap.Marker.js": {
+			"deps": ["MMap.Marker"],
+			"desc": "Custom marker who can insert HTML contents."
+		},
+
+		"MMap.Marker.Image.js": {
+			"deps": ["MMap.Marker"],
+			"desc": "Marker who can do mapping of image on map."
+		},
+
+		"MMap.Marker.Images.js": {
+			"deps": ["MMap.Marker"],
+			"desc": "Marker who can do mapping of image on map. Two or more images can be used and the image changes at regular intervals."
+		},
+
+		"MMap.Window.js": {
+			"deps": ["MMap"],
+			"desc": "Custom information window."
+		}
 	}
 
 }
