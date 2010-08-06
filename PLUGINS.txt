@@ -1,0 +1,4 @@
+git://github.com/holyshared/ImageDrawer.git
+git://github.com/holyshared/Gradually.git
+git://github.com/holyshared/MMap.git
+git://github.com/holyshared/Exhibition.git

@@ -1,3 +1,3 @@
-[submodule "libs/core"]
-	path = libs/core
-	url = git://github.com/holyshared/Gradually.git
+[submodule "plugins/ImageDrawer"]
+	path = plugins/ImageDrawer
+	url = git://github.com/holyshared/ImageDrawer.git
