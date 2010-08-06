@@ -1,0 +1,12 @@
+[submodule "plugins/ImageDrawer"]
+	path = plugins/ImageDrawer
+	url = git://github.com/holyshared/ImageDrawer.git
+[submodule "plugins/Gradually"]
+	path = plugins/Gradually
+	url = git://github.com/holyshared/Gradually.git
+[submodule "plugins/Exhibition"]
+	path = plugins/Exhibition
+	url = git://github.com/holyshared/Exhibition.git
+[submodule "plugins/MMap"]
+	path = plugins/MMap
+	url = git://github.com/holyshared/MMap.git
